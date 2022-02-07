@@ -39,14 +39,14 @@ You will have to install two new tools :
 
 For this exercise we provide you with the following files:
 
--p4app-line.json: describes the topology we want to create with the help of mininet and p4-utils package. This linear topology will be used for our first test.
--p4app.json: describes the topology we used in the ecmp exercise, 2 switches connected through 4 middle switches.
--p4src/loadbalancer.p4: we will use the solution of the 05-Simple_Routing exercise as starting point.
--send.py: a small python script to generate tcp probe packets to read queues.
--receive.py: a small python script to receive tcp probes that include a telemetry header.
--routing-controller.py: routing controller of the 05-Simple_Routing exercise as starting point.
--nload_tmux_*.sh: scripts that will create a tmux window, and nload in different panes.
--send_traffic_*.py: python scripts that use iperf3 to automatically generate flows to test our solution.
+- p4app-line.json: describes the topology we want to create with the help of mininet and p4-utils package. This linear topology will be used for our first test.
+- p4app.json: describes the topology we used in the ecmp exercise, 2 switches connected through 4 middle switches.
+- p4src/loadbalancer.p4: we will use the solution of the 05-Simple_Routing exercise as starting point.
+- send.py: a small python script to generate tcp probe packets to read queues.
+- receive.py: a small python script to receive tcp probes that include a telemetry header.
+- routing-controller.py: routing controller of the 05-Simple_Routing exercise as starting point.
+- nload_tmux_*.sh: scripts that will create a tmux window, and nload in different panes.
+- send_traffic_*.py: python scripts that use iperf3 to automatically generate flows to test our solution.
 
 
 
