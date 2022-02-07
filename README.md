@@ -72,4 +72,5 @@ with another terminal
 `sudo python send_traffic.py 20`
 
 you can make possibly large traffic sent from hosts.
-remember send_traffic.py <duration time>.
+
+remember send_traffic.py `duration time`.
